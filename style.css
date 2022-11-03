@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.grad {
+    height: 656px;
+    background-color: black;
+    background-image: linear-gradient(rgb(167, 165, 165), rgb(92, 91, 91));
+}
+
+.logo {
+    /* position: absolute; */
+    /* background-color: white; */
+    padding-top: 30px;
+}
+
+.nama h1{
+    margin-top: 85px;
+}
+
+.produk1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produk1 img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    scroll-padding-block-end: 1s;
+}
+
+.isi {
+    font-size: 16pt;
+    width: 890px;
+}
+
+.atasharga h5{
+    font-size: 13pt;
+    margin-top: 35px;
+}
+
+.harga h2{
+    font-size: 45pt;
+}
+
+.buttonbuy{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-weight: 500pt;
+}
+
+.buttonbuy a:hover{
+    box-shadow: 0 0 11px rgba(36, 0, 168, 0.2)
+}
+
+.buttonbuy a{
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(153, 152, 152);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#details {
+    margin-right: 26%;
+    position: absolute;
+    background-color: transparent;
+    left: 35%;
+    top: 58%;
+}
